@@ -128,22 +128,24 @@ y_pred = model.predict(X_test)
 ### Pair plot of all features
 Setosa (small petals) is clearly separate; versicolor and virginica overlap a little.
 
-![Pair plot](images/pairplot.png)
+<img width="1263" height="1123" alt="pairplot" src="https://github.com/user-attachments/assets/fee9693b-4db7-4238-a4ec-082d026756ed" />
 
 ### Feature correlation
 Petal length and petal width are strongly correlated and are the most useful features.
 
-![Correlation heatmap](images/correlation_heatmap.png)
+<img width="679" height="615" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/21ea2e96-bb31-4c78-8f03-7abb61228278" />
 
 ### Model comparison
 All five models score well; the SVM is best.
 
-![Model comparison](images/model_comparison.png)
+<img width="828" height="423" alt="model_comparison" src="https://github.com/user-attachments/assets/0086c04e-c4d1-40ab-aa3b-c2802705b4da" />
+
 
 ### Confusion matrix (best model: SVM)
 Rows are the true species and columns are the predicted species. Only one versicolor was predicted as virginica.
 
-![Confusion matrix](images/confusion_matrix.png)
+<img width="588" height="470" alt="confusion_matrix" src="https://github.com/user-attachments/assets/554d0496-f6b7-4b35-816b-88d3259e5866" />
+
 
 ---
 
